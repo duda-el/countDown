@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(new.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.cubes{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube{
+    width: 120px;
+    height: 180px;
+    background-color: rgb(227, 148, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.cubes .cube h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.cubes .cube h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.dots{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.input{
+    display: flex;
+}
+
+input{
+    width: 250px;
+    height: 45px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 120px;
+    height: 45px;
+    border: none;
+    background-color: rgb(227, 148, 0);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.socials{
+    display: flex;
+    gap: 25px;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    background-image: url(facebook.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    background-image: url(twitter.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    background-image: url(instagram.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
